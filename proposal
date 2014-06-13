@@ -1,0 +1,24 @@
+This talk aims to give an overview of the past, present, and future
+of the CGI.pm module.
+
+As the new primary maintainer of CGI.pm i would like to explain what
+i plan to do with the module, i would also like to bring people up
+to speed with recent changes related to CGI.pm - especially the fact
+that it will soon no longer be a core module.
+
+I will also point out the state of the module with regards to issues
+and highlight that it is still a commonly used module in some perl
+development shops; that there are still some perl developers who will
+advocate its use and why they shouldn't, with a heavy nod towards
+Sawyer's recent "CGI.pm must die" talk.
+
+The "future" will include suggestions for refactoring the module once
+existing issues have been addressed. These may include:
+
+	+ Documentation to dissuade the use of CGI.pm
+	+ Increasing test coverage
+	+ Removal of duplicate functionality
+	+ Replacing pre-re-invented wheels with CPAN equivalents
+	+ Deprecation of HTML generation functions
+
+The talk is planned as a lightning talk.
