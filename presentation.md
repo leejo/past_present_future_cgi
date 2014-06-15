@@ -56,6 +56,7 @@ We know CGI.pm is still in use, in some cases significantly so.
 * super search [perlmonks](http://www.perlmonks.org/?node=Super%20Search) for CGI - lots of results
 * [stackoverflow](http://stackoverflow.com/search?tab=newest&q=perl%20CGI) lots of questions
 * [jobs.perl.org](http://jobs.perl.org/search?q=CGI&location=) jobs matching "CGI"
+* steady stream of issues raised - 1 or 2 a month.
 
 ---
 ## The Present
