@@ -124,7 +124,9 @@ Version 5 and beyond (post perl 5.24?)
 * Refactoring - replacing the pre-re-invented wheels
 	* package Fh - IO::*?
 	* package CGITempFile - File::Temp?
+	* path wrangling - File::Spec? Path::Tiny?
 	* General stuff - URI::*?
+	* multipart stuff - MIME::*?
 
 ---
 ## The Future
@@ -133,6 +135,10 @@ Version 5 and beyond (post perl 5.24?)
 
 * Removing - EBCDIC support
 	* when this happens in perl it will happen in CGI.pm
+
+* Removing - cgi-lib.pl compatibility
+	* because cgi-lib.pl
+	* it's only half compatible anyway
 
 ---
 ## The Future
