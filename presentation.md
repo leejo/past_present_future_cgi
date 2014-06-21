@@ -147,7 +147,7 @@ Version 5 and beyond (post perl 5.24?)
 
 * Deprecating - mod_perl compatibility
 	* possibly controversial
-	* horrible, and has no test coverage
+	* messy, and has no test coverage
 
 ---
 ## The Future
