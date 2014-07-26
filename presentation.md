@@ -57,6 +57,7 @@ We know CGI.pm is still in use, in some cases significantly so.
 * [stackoverflow](http://stackoverflow.com/search?tab=newest&q=perl%20CGI) lots of questions
 * [jobs.perl.org](http://jobs.perl.org/search?q=CGI&location=) jobs matching "CGI"
 * steady stream of issues raised - 1 or 2 a month.
+* just take a look at [bugzilla](http://www.bugzilla.org/installation-list/)
 
 ---
 ## The Present
