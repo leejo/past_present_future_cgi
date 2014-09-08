@@ -2,7 +2,7 @@ The Past, Present, and Future of CGI.pm
 
 [Lee Johnson](http://leejo.github.io)
 
-September 2014
+November 2014
 
 ---
 ## The Past
@@ -37,6 +37,7 @@ Mid 2013
 Mid 2014
 
 * [The very first commit to perl 5.21](http://perl5.git.perl.org/perl.git/commitdiff/e9fa5a80) - CGI.pm is no longer in core
+	* So as of perl 5.22 (mid 2015) perl will no longer ship with CGI.pm
 * [CGI.pm needs new primary maintainer](http://www.nntp.perl.org/group/perl.perl5.porters/2014/02/msg212800.html) - Lincoln Stein
 	* Which is [me](https://metacpan.org/release/CGI)
 
@@ -62,7 +63,7 @@ We know CGI.pm is still in use, in some cases significantly so.
 ---
 ## The Present
 
-Version 4.* (perl 5.20 and beyond) backwards compatible.
+Version 4.* (2014 and beyond) backwards compatible.
 
 * [Addressing issues](https://github.com/leejo/CGI.pm/issues?direction=desc&sort=created&state=open) - v4.* of
 CGI.pm will address all open issues and any that are raised between now and v5
@@ -85,7 +86,7 @@ We know some perl developers still advocate the use of CGI.pm
 * linkedin groups - walled garden, you'll just have to believe me
 * much history on the web - search for perl + CGI
 * books - search amazon.com for perl + cgi
-* [a talk advocating CGI.pm](https://www.youtube.com/watch?v=0SfAoLNcvsk)
+* [a recent talk advocating CGI.pm](https://www.youtube.com/watch?v=0SfAoLNcvsk)
 
 ---
 ## The Present
@@ -95,7 +96,7 @@ We know some perl developers still advocate the use of CGI.pm
 * linkedin groups - walled garden, you'll just have to believe me
 * much history on the web - search for perl + CGI
 * books - search amazon.com for perl + cgi
-* [a talk advocating CGI.pm](https://www.youtube.com/watch?v=0SfAoLNcvsk). At mojoconf 2014!
+* [a recent talk advocating CGI.pm](https://www.youtube.com/watch?v=0SfAoLNcvsk). At mojoconf 2014!
 
 ---
 ## The Present
@@ -115,12 +116,12 @@ On that last link.
 ---
 ## The Future
 
-Version 5 and beyond (post perl 5.24?)
+Version 5.* (2016 and beyond?)
 
 ---
 ## The Future
 
-Version 5 and beyond (post perl 5.24?)
+Version 5.* (2016 and beyond?)
 
 * Refactoring - replacing the pre-re-invented wheels
 	* package Fh - IO::*?
@@ -132,7 +133,7 @@ Version 5 and beyond (post perl 5.24?)
 ---
 ## The Future
 
-Version 5 and beyond (post perl 5.24?)
+Version 5.* (2016 and beyond?)
 
 * Removing - EBCDIC support
 	* when this happens in perl it will happen in CGI.pm
@@ -144,16 +145,17 @@ Version 5 and beyond (post perl 5.24?)
 ---
 ## The Future
 
-Version 5 and beyond (post perl 5.24?)
+Version 5.* (2016 and beyond?)
 
-* Deprecating - mod_perl compatibility
+* Deprecating - mod_perl 1.* compatibility
 	* possibly controversial
 	* messy, and has no test coverage
+	* mod_perl 2.* compatibility will remain
 
 ---
 ## The Future
 
-Version 5 and beyond (post perl 5.24?)
+Version 5.* (2016 and beyond?)
 
 * Deprecating - *ALL* HTML generation functions
 	* possibly really controversial
@@ -167,5 +169,3 @@ Version 5 and beyond (post perl 5.24?)
 
 ---
 ## Thank you
-
-Merci / Danke / Grazie
