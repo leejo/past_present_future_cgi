@@ -2,7 +2,7 @@ The Past, Present, and Future of CGI.pm
 
 [Lee Johnson](http://leejo.github.io)
 
-November 2014
+~~September~~ November 2014
 
 ---
 ## The Past
@@ -67,9 +67,11 @@ Version 4.* (2014 and beyond) backwards compatible.
 
 * [Addressing issues](https://github.com/leejo/CGI.pm/issues?direction=desc&sort=created&state=open) - v4.* of
 CGI.pm will address all open issues and any that are raised between now and v5
+	+ RT Issues queue down to less than 10 from > 80
+	+ 3/3/3 split in terms of already fixed/fixed/rejected
 
 * [CGI::Alternatives](https://metacpan.org/pod/CGI::Alternatives) - a little documentation to point users of
-CGI.pm at alternatives.
+CGI.pm at alternatives (sort of like Task::Kensho).
 
 * Increasing test coverage.
 
@@ -124,9 +126,9 @@ Version 5.* (2016 and beyond?)
 Version 5.* (2016 and beyond?)
 
 * Refactoring - replacing the pre-re-invented wheels
-	* package Fh - IO::*?
-	* package CGITempFile - File::Temp?
-	* path wrangling - File::Spec? Path::Tiny?
+	* ~~package Fh - IO::*?~~
+	* ~~package CGITempFile - File::Temp?~~
+		+ Already done in v4 (many bugs in CGITempFile)
 	* General stuff - URI::*?
 	* multipart stuff - MIME::*?
 
