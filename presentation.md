@@ -2,7 +2,7 @@ The Past, Present, and Future of CGI.pm
 
 [Lee Johnson](http://leejo.github.io)
 
-~~September~~ November 2014
+~~September~~ October 2014
 
 ---
 ## The Past
