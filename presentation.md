@@ -105,7 +105,7 @@ We know some perl developers still advocate the use of CGI.pm
 
 On that last link.
 
-![not sure if serious](/img/serious.jpg)
+![not sure if serious](img/serious.jpg)
 
 ---
 ## The Present
